@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1019.09 109.72">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: MuseoModernoRoman-Light, MuseoModerno;
+        font-variation-settings: 'wght' 300;
+        font-weight: 300;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-size: 93.62px;
+      }
+
+      .cls-2 {
+        font-family: MuseoModernoRoman-Bold, MuseoModerno;
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: red;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(0 79.58)"><tspan x="0" y="0">shahriar</tspan></text>
+  <text class="cls-1" transform="translate(410.67 79.58)"><tspan x="0" y="0">ghasempour</tspan></text>
+  <rect class="cls-3" x="1002.05" y="63.31" width="17.04" height="17.04"/>
+</svg>
