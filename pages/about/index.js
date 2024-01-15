@@ -110,7 +110,7 @@ const About = () => {
       <Circle />
 
       {/* Avatar img */}
-      <motion.div 
+      {/* <motion.div 
         variants={fadeIn('right', 0.2)}
         initial="hidden"
         animate='show'
@@ -118,7 +118,7 @@ const About = () => {
         className="hidden xl:flex absolute bottom-0 -right-[160px]"
       >
         <Avatar />
-      </motion.div>
+      </motion.div> */}
 
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
 
