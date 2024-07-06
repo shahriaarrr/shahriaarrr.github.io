@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
@@ -5,6 +7,11 @@ import { FiDownload } from "react-icons/fi";
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
+import { motion } from "framer-motion";
+
+import {fadeIn} from '../variants';
+
+import Typewriter from 'typewriter-effect';
 
 const Home = () => {
   return (
@@ -14,13 +21,34 @@ const Home = () => {
 
           {/* Text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">
-              python developer
-            </span>
 
             <h2 className="h1 mb-6">
               Hello I'm <br/><span className="text-accent">Shahriar Ghasempour</span>
             </h2>
+
+            <motion.h3 
+              variants={fadeIn('down', 0.2)}
+              initial='hidden'
+              animate='show'
+              exit='hidden'
+              className='h3'
+            >
+              <span className="text-xl">
+              <Typewriter 
+                  options={{
+                    strings: [
+                      'python developer',
+                      'back-end developer',
+                      'content creator',
+                      'discord.py developer',
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    deleteSpeed: 0.4,
+                  }}
+                />
+              </span>
+            </motion.h3>
 
             <p className="max-w-[500px] mb-9 text-white/90 ">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
