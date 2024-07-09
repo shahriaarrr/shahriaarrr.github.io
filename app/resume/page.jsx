@@ -22,7 +22,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 const about = {
-   title: "About ma",
+   title: "About me",
    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.",
    info: [
     {
