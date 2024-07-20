@@ -51,7 +51,8 @@ const Home = () => {
             </motion.h3>
 
             <p className="max-w-[500px] mb-9 text-white/90 ">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            A highly motivated Python/Django developer with a passion for programming and learning.
+
             </p>
 
             {/* btn and social medias */}
