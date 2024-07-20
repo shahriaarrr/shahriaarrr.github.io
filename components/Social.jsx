@@ -1,23 +1,27 @@
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaYoutube, FaTelegramPlane } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
 const socials = [
     {
         icon: <FaGithub />,
-        path: ''
+        path: 'https://github.com/shahriaarrr'
     },
     {
         icon: <FaLinkedin />,
-        path: ''
+        path: 'https://linkedin.com/in/shahriaarrr'
     },
     {
         icon: <FaYoutube />,
-        path: ''
+        path: 'https://youtube.com/@shahriaarrr'
+    },
+    {
+        icon: <FaTelegramPlane />,
+        path: 'https://t.me/shahriaarrr'
     },
     {
         icon: <BsTwitterX />,
-        path: ''
+        path: 'https://x.com/shahriaarrr'
     },
 ]
 
