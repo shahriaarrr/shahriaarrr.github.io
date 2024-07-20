@@ -23,7 +23,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 const about = {
    title: "About me",
-   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.",
+   description: "I was interested in the world of computers since I was a child, and this interest reached it's peak when I was 12 years old, and from the past 3 years until now, I have been working as a freelance developer. Since then I have done many projects and worked remotely for companies as well as collaborating on open source projects",
    info: [
     {
       fieldName: "Name",
@@ -72,7 +72,7 @@ const about = {
 const certificates = {
   icons: '/resume/cap.svg',
   title: "My Certificates",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  description: "I'm interested in learning and experiencing new things. Here you can see a part of my learning path",
   items: [
     {
       institution: "Harvard University",
@@ -109,7 +109,7 @@ const certificates = {
 
 const skills = {
   title: "My Skills",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  description: "showcases my expertise in various technologies and tools, highlighting my proficiency and experience.",
   skillList:[
     {
       icon: <FaPython />,
