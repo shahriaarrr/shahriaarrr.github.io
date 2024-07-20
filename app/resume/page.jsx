@@ -23,7 +23,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 const about = {
    title: "About me",
-   description: "I was interested in the world of computers since I was a child, and this interest reached it's peak when I was 12 years old, and from the past 3 years until now, I have been working as a freelance developer. Since then I have done many projects and worked remotely for companies as well as collaborating on open source projects",
+   description: "I was interested in the world of computers since I was a kid, and this interest reached it's peak when I was 12 years old, and from the past 3 years until now, I have been working as a freelance developer. Since then I have done many projects and worked remotely for companies as well as collaborating on open source projects",
    info: [
     {
       fieldName: "Name",
