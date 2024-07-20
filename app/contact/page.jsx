@@ -51,7 +51,9 @@ const Contact = () => {
               </h3>
 
               <p className="text-white/60">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              This form is for communicating with me. If you have a project or a job position that I am suitable for,
+              you can send it here, of course, you can't at the moment because the form is a bunch of front-end code and I'm currently working on the method :)<br></br>
+              Currently, you can communicate via email and Skype.
               </p>
 
               {/* input */}
