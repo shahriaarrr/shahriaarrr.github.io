@@ -10,6 +10,7 @@ import {
   FaDiscord,
   FaDatabase,
   FaCss3,
+  FaNodeJs,
 } from "react-icons/fa";
 import { FaGolang } from "react-icons/fa6";
 import { SiDjango, SiRedis } from "react-icons/si";
@@ -122,6 +123,10 @@ const skills = {
     {
       icon: <FaGolang />,
       name: "GOlang",
+    },
+    {
+      icon: <FaNodeJs />,
+      name: "NodeJs",
     },
     {
       icon: <FaGitAlt />,
